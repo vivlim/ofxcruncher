@@ -1,6 +1,13 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
 
-
-pub const input: &str = r##"
 <OFX>
     <SIGNONMSGSRSV1>
         <SONRS>
@@ -77,5 +84,3 @@ pub const input: &str = r##"
         </STMTTRNRS>
     </BANKMSGSRSV1>
 </OFX>
-
-"##;

@@ -1,0 +1,1 @@
+run ofxcruncher from this directory to try it with sample data

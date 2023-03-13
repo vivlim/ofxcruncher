@@ -1,9 +1,5 @@
 use std::path::Path;
 
-use rust_decimal::Decimal;
-use serde::Deserialize;
-
-mod sample;
 mod parsing;
 mod collector;
 
