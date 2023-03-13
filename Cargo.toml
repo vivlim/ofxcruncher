@@ -1,0 +1,13 @@
+[package]
+name = "ofxcruncher"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sgmlish = "0.2.0"
+serde = { version = "1.0", features = ["derive"] }
+anyhow = "1.0.69"
+rust_decimal = { version = "1.29.0", features = ["serde-with-str"] }
+rust_decimal_macros = "1.29.0"
